@@ -10,43 +10,47 @@
     <title>Stage 5 task</title> 
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm|md|lg|-xl navbar-light bg-light  bg-opacity-1 bs-gray-500 " style="--bs-bg-opacity: .9 !important;">
-        <div class="container bg-opacity-1">
-          <a class="navbar-brand" href="#" ><img src="img/julioslogo.png" alt="" srcset=""></a>
-          <div class="left-section" class="text-decoration-none d-none d-md-block">
-              <a href="index.html" class="text-decoration-none px-2  d-none d-md-inline">Home</a>
-              <a href="about-us.html" class="text-decoration-none px-2  d-none d-md-inline">About Us</a>
-              <a href="services.html" class="text-decoration-none px-2  d-none d-md-inline">Our Services</a>
-              <a href="contact.html" class="text-decoration-none px-2 d-none d-md-inline v">Contact Us</a>
-          </div>
-          <button class="navbar-toggler d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+       <nav class="navbar container navbar-expand-lg  bg-light  bg-opacity-1 bs-gray-500  sticky-top va">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="./img/julioslogo.png" class="image-responsive logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavId">
-              <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="about-us.html">About us<span class="visually-hidden">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact Us</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                      <div class="dropdown-menu" aria-labelledby="dropdownId">
-                          <a class="dropdown-item" href="#">Gallery</a>
-                          <a class="dropdown-item" href="#">Services</a>
-                      </div>
-                  </li>
-              </ul>
-              <form class="d-flex my-2 my-lg-0">
-                  <input class="form-control me-sm-2" type="text" placeholder="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=“contact.html” >Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="our services.html">Our Services</a></li>
+                    <li><a class="dropdown-item" href="contact_us.html">Gallery</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
-    </nav>
-    <div class="hero-section pb-5">
+      </nav>
+      <div class="hero-section pb-5">
        <div class="container pt-1" >
             <p class="pt-5 mt-n4 px-2">Welcome to</p>
             <h1 class=" pt-0  fs-xtra" style="margin-top: -2% !important;" >Julio's Travels</h1>
