@@ -12,32 +12,32 @@
     <title>About Us</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm|md|lg|-xl navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm|md|lg|-xl navbar-light bg-light  bg-opacity-1 bs-gray-500 " style="--bs-bg-opacity: .9 !important;">
         <div class="container bg-opacity-1">
-          <a class="navbar-brand" href="#"><img src="img/julioslogo.png" alt="" srcset=""></a>
-          <div class="left-section" class="text-decoration-none">
-              <a href="index.html" class="text-decoration-none px-2 d-lg-inline d-sm-none">Home</a>
-              <a href="about-us.html" class="text-decoration-none px-2">About Us</a>
-              <a href="services.html" class="text-decoration-none px-2">Our Services</a>
-              <a href="" class="text-decoration-none px-2">Contact Us</a>
+          <a class="navbar-brand" href="#" ><img src="img/julioslogo.png" alt="" srcset=""></a>
+          <div class="left-section" class="text-decoration-none d-none d-md-block">
+              <a href="index.html" class="text-decoration-none px-2  d-none d-md-inline">Home</a>
+              <a href="about-us.html" class="text-decoration-none px-2  d-none d-md-inline">About Us</a>
+              <a href="services.html" class="text-decoration-none px-2  d-none d-md-inline">Our Services</a>
+              <a href="contact.html" class="text-decoration-none px-2 d-none d-md-inline v">Contact Us</a>
           </div>
-          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+          <button class="navbar-toggler d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="collapsibleNavId">
               <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                   <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+                      <a class="nav-link" href="about-us.html">About us<span class="visually-hidden">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
+                      <a class="nav-link" href="contact.html">Contact Us</a>
                   </li>
                   <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                       <div class="dropdown-menu" aria-labelledby="dropdownId">
-                          <a class="dropdown-item" href="#">Action 1</a>
-                          <a class="dropdown-item" href="#">Action 2</a>
+                          <a class="dropdown-item" href="#">Gallery</a>
+                          <a class="dropdown-item" href="#">Services</a>
                       </div>
                   </li>
               </ul>
@@ -46,67 +46,290 @@
                   <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
               </form>
           </div>
-    </div>
-  </nav>
-  <div class="about-hero-section">
-    <div class="container ">
-         <h1 class="pt-5 pb-1 text-black-50">About Us...</h1>
-        <p class="pb-5 font-italic text-light">everything you need <br> to know about US!</p>
-        <div class="img">
-            <div class="more-margin pt-5">
-                <div class="more-padding mt-5"></div>
-            <div class="text-center mt-5" style="red">
-                <button type="button" class="btn btn-primary mt-5">Watch Video</button>
-            </div>
-            </div>
-            
-        
-     </div>
-     </div>
- </div>
-  <div class="second-section">
-    <div class="container" >
-        <div class="row">
-            <div class="first col-lg-5">
-                <h3 class="pt-5">Our Background</h3>
-                <h6 class="">THE FULL STORY</h5>
-                <p class="text-left">Since Julios Travels was exterblished </p>
-                <div class="row" >
-                    <p class="col-lg-11 align-center">Explore the rest of our site to learn more about what we do and 
-                        have to offer.</p>
-                    <img  class="col-lg-1 align-center pt-n5 " src="/img/arrow-right-circle-fill.svg" alt="">    
-                </div>
-            </div>
-            <div class="first col-lg-5">
-                <h3 class="pt-5">Why Choose US</h3>
-                <h6 class="">THE FULL STORY</h5>
-                <p class="text-left">As One of the leading Travel Agency in Delta State, Asaba, 
-                we attribute our reputation to the lasting customer relationship we have developed throughout 
-                the years with our customers since the company was being exterblished. We believe that all our
-                customers deserve the higest level of service, and we are committed to providing just that.</p>
-                <div class="row" >
-                    <p class="col-lg-11 align-center" >Explore the rest of our site to learn more about what we do and 
-                        have to offer.</p>
-                    <img  class="col-lg-1 align-center pt-n5 " src="/img/arrow-right-circle-fill.svg" alt="">    
-                </div>
-            </div>
-            <div class="first col-lg-2">
-                <h6 class="mt-5 border border-3 bbr p-3">TRENDING</h5>
-                <p class="border border-3 bbr p-3">As One of the leading Travel Agency in Delta State, Asaba, 
-                we attribute our reputation to the lasting customer relationship we have developed throughout 
-                the years with our customers since the company was being exterblished. We believe that all our
-                customers deserve the higest level of service, and we are committed to providing just that.</p>
-                <div class="row" >
-                    <p class="col-lg-11 align-center" >Explore the rest of our site to learn more about what we do and 
-                        have to offer.</p>
-                    <img  class="col-lg-1 align-center pt-n5 " src="/img/arrow-right-circle-fill.svg" alt="">    
-                </div>
-            </div>
-           
         </div>
-        
+    </nav>
+    <div class="about-hero-section">
+        <div class="container ">
+            <h1 class="pt-5 pb-1 text-primary fs-xtra">About Us...</h1>
+            <p class="pb-5 font-italic text-light">...everything you need <br> to know about US!</p>
+            <div class="img">
+                <div class="more-margin mt-5 pt-5">
+                    <div class="more-padding mt-5"></div>
+                <div class="text-center mt-5" style="red">
+                    <button type="button" class="btn btn-primary text-dark-50 mt-5 px-3 py-3 pt-1 pb-1">
+                        <img src="img/play.PNG" alt="" srcset="" style="width: 34px; height:auto; margin-left 200% !important;">
+                        <span class="text-dark mt-2 pt-2" >Video</span> </button>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="second-section pb-4">
+        <div class="container " >
+            <div class="row mt-3">
+                <div class="first col-lg-8 col-md-8">
+                    <h3 class="pt-5">Our Background</h3>
+                    <h6 class="">HOW IT STARTED</h5>
+                    <p class="text-left">Julios Travels was a brain-child of Mr. Nonso Nwosu, who haven experienced 
+                    a lot of hurdles in securing a good visa/ticket to the united states while pursing his Masters degree,
+                    thought it best to seek a where students, families and even business personels can easily secure a trip
+                    for thier vacation or what ever visa they seek to secure oversees. As a result Julio's travels named after
+                    his late father JULIUS was formed.</p>
+                    <div class="row" >
+                        <p class="col-lg-11 col-md-11 align-center">But before all these were possible, let;s explore what our goals and visions are</p>
+                        <!-- <img  class="col-lg-1 col-md-2 align-center pt-n5 " src="/img/arrow-right-circle-fill.svg" alt=""> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 fg">
+                    <h4 class="pt-5 mt-3 px-5 py-5 text-secondary">"Absolute Nothing Impossible with us"</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-md-10">
+                    <div class="row pt-3">
+                        <div class="first col-lg-6 col-md-6  my-auto card ">
+                            <h3 class="pt-5 px-1"><img src="img/goal.PNG" style="width: 10%; height: auto;"> Our Goal</h3>
+                            <h6 class=" px-2">ALWAYS MOTIVATED</h5>
+                            <p class="text-left px-2">Julios Travels was a brain-child of Mr. Nonso Nwosu, who haven experienced 
+                            a lot of hurdles in securing a good visa/ticket to the united states while pursing his Masters degree,
+                            thought it best to seek a where students, families and even business personels can easily secure a trip
+                            for thier vacation or what ever visa they seek to secure oversees. As a result Julio's travels named after
+                            his late father JULIUS was formed.</p>
+                            <div class="row px-2" >
+                                <p class="col-lg-11 col-md-11 align-center">But before all these were possible, let;s explore what our goals and visions are</p>
+                                    
+                            </div>
+                        </div>
+                        <div class="first col-lg-6 col-md-6 mx-auto  card">
+                            <h3 class="pt-5 px-1"><img src="img/vision.PNG" style="width: 10%; height: auto;"> Our Vision</h3>
+                            <h6 class="px-2">A PEEP INTO OUR THOUGHTS</h5>
+                            <p class="text-left px-2">As One of the leading Travel Agency in Delta State, Asaba, 
+                            we attribute our reputation to the lasting customer relationship we have developed throughout 
+                            the years with our customers since the company was being exterblished. We believe that all our
+                            customers deserve the higest level of service, and we are committed to providing just that.</p>
+                            <div class="row px-2" >
+                                <p class="col-lg-11 col-md-11 align-center " >Explore the rest of our site to learn more about what we do and 
+                                    have to offer.</p>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4 ">
+                        <div class="first col-lg-6 col-md-6 my-auto card pt-1 pb-3">
+                            <h3 class="pt-5 px-1"><img src="img/the-mission.PNG" style="width: 10%; height: auto;"> The Mission</h3>
+                            <h6 class=" px-2">TO BE A TRAIL-BLAZER</h5>
+                            <p class="text-left px-2">Julios Travels was a brain-child of Mr. Nonso Nwosu, who haven experienced 
+                            a lot of hurdles in securing a good visa/ticket to the united states while pursing his Masters degree,
+                            thought it best to seek a where students, families and even business personels can easily secure a trip
+                            for thier vacation or what ever visa they seek to secure oversees. As a result Julio's travels named after
+                            his late father JULIUS was formed.</p>
+                            <div class="row px-2" >
+                                <p class="col-lg-11 align-center">But before all these were possible, let;s explore what our goals and visions are</p>   
+                            </div>
+                        </div>
+                        <div class="first col-lg-6 col-md-6 mx-auto  card">
+                            <h3 class="pt-5 px-1"><img src="img/awards.PNG" style="width: 10%; height: auto;"> Notable awards</h3>
+                            <h6 class=" px-2">BELLOW IS A LIST OF OUR AWARDS</h5>
+                            <p class="text-left px-2">Since the inception of this exterblishmnet, th following are notable list of our awrds.</p>
+                            <ul>
+                                <li>West Africa's Top Initiative -2005 : Awarded by the west africa top marketing firm organziaztions</li>
+                                <li>No 1. Trail blazzers Award -2007 : Awarded by the Delta State Government Nigeria</li>
+                            </ul>
+                            <div class="row px-2" >
+                                <p class="col-lg-11 col-md-11 align-center " >Explore the rest of our site to learn more about what we do and 
+                                    have to offer.</p>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="first col-lg-2 col-md-2 d-none d-md-block">
+                    <h6 class="mt-3 border border-3 bbr p-3 px-1  ">TRENDING</h6>
+                    <div class="border border-3 bbr ">
+                        <p class=" px-2 py-2 pt-3 "> "See how Travel agency Julio Travels is taking over the world" <br>-Linda Ikeji blog </p>
+                        <img src="img/flight-booking.WEBP" style="width: 100%; height: auto;" class=" p-2" alt="">
+                        <p class=" px-2 py-2 pt-3"> "Travel Consultation has never been this efficient like it is now." <br>- Blog Naija </p>
+                        <img src="img/fam.JPG" style="width: 100%; height: auto;" class=" p-2" alt="">
+                        <p class=" px-2 py-2 pt-3"> "Joe Biden is a Coward" - Trump </p>
+                        <img src="img/trump.JPG" style="width: 100%; height: auto;" class="pt-0 p-2" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="third-section bg-secondary p-5">
+        <div class="container text-dark">
+            <h3>Meet the Team</h3>
+            <p>Below is a list of all our notable staffs</p>
+            <div class="row pb-5">
+                <div class="card col-lg-4 col-md-6">
+                    <img src="img/mr.3.png" class="rounded mx-auto d-block text-center px-4 py-4 w-100" alt="..." style="width: 80% !important;">
+                    <div class="bg-dark text-white p-4 text-center mb-3">
+                        <h5 class="text-white ">Mr. Hope Shawn</h5>
+                        <p>General Manager</p>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6">
+                    <img src="img/mr.6.JPG" class="rounded mx-auto d-block text-center px-4 py-4 w-100 pt-5" alt="..." style="width: 86% !important;">
+                    <div class="bg-dark text-white p-4 text-center mb-3">
+                        <h5 class="text-white ">Ogbona Iloh</h5>
+                        <p>Operation Manager</p>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6">
+                    <img src="img/ms-20.PNG" class="rounded mx-auto d-block text-center px-4 py-4 w-100" alt="..." style="width: 80% !important;">
+                    <div class="bg-dark text-white p-4 text-center mb-3">
+                        <h5 class="text-white ">Ms. Karen Shaw</h5>
+                        <p>Head of Marketing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery p-5">
+        <div class="container">
+            <h3 class="pb-3">Gallery</h3>
+            <p>Places you Wish to See</p>
+            <div class="row">
+                <div class="col-4">
+                    <img class="col-12" src="img/g2.WEBP" alt="" srcset="">
+                    <p>Manibau Beach</p>
+                    <img class="col-12" src="img/g3.WEBP" alt="" srcset="">
+                </div>
+                <div class="col-4">
+                    <img class="col-12" src="img/g1.WEBP" alt="" srcset="">
+                    <p>Baecation</p>
+                </div>
+                <div class="col-4">
+                    <img class="col-12" src="img/g7.WEBP" alt="" srcset="">
+                    <p>Family Retreat</p>
+                    <img class="col-12" src="img/g8.WEBP" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subscription-section p-5 bg-opacity-1 bg-secondary" id="subscribe">
+        <div class="container" >
+            <h3 class="text-white text-center pb-4">Build a career with us</h3>
+            <div class="row" >
+                <div class="col-lg-6 d-none d-md-inline">
+                    <img src="img/sub.WEBP" alt="" srcset="" class="col-lg-12 col-md-12 col-sm-12 mx-auto pb-5">
+                </div>
+                <div class="col-lg-6 d-none d-md-inline">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name1" class="form-label text-white">Name</label>
+                            <input type="text" class="form-control" id="examplename">
+                            <div id="emailHelp" class="form-text text-white">your details are confidential</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label text-white">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail">
+                            <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else</div>
+                        </div>
+                        <div class="mb-3 ">
+                            <label for="exampleInputPassword1" class="form-label text-white">password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                        </div>
+                        <button type="submit" class="btn btn-primary col-12 text-left mt-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="brands-section p-5" style="background-color: #eed4af04">
+        <div class="container ">
+            <h3 class="">Notable Partners</h3>
+            <p class="pb-4 pt-0">In our pursuit to bring you the best, below is a list of out top partners</p>
+            <div class="row pt-3 text-center mx-5 my-auto d-flex flex-row">
+                <div class="col-lg-3 col-md-6 col-sm-2 row ">
+                    <img src="img/airpeace.PNG" style="height: 50%; width: auto;" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-2 row mx-auto">
+                    <img src="img/arik.JPG" style="height: 50%; width: auto;" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-2 row mx-auto">
+                    <img src="img/fly-emirates.PNG" style="height: 50%; width: auto;" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-3 row mx-auto">
+                    <img src="img/dana0air.jpg.png" style="height: 50%; width: auto;" alt="">
+                </div>
+            </div>
+            <div class="row  text-center mx-5 ">
+                <div class="col-lg-3 col-md-6 col-sm-2 row mx-auto">
+                    <img src="img/Nig-air.png" style="height: 50%; width: auto;" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-2 row mx-auto">
+                    <img src="img/virgin-air.JPG" style="height: 50%; width: auto;" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-2 row mx-auto">
+                    <img src="img/hiton-hotels.png" style="height: 50%; width: auto;" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-2  row mx-auto">
+                    <img src="img/sharaton.PNG" style="height: 50%; width: auto;" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    
+
+    
+    <div class="footer p-5 bg-dark">
+        <div class="container text-white ">
+            <div class="row">
+                <div class="col-lg-4 pb-4">
+                    <h4>Quick links</h4>
+                    <div class="row">
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white col-lg-12">Shop all</a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-light col-lg-12">Our story</a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white col-lg-12">Sustainability</a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white col-lg-12">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pb-4">
+                    <h4>Important links</h4>
+                    <div class="row">   
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">Returns</a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">Gallery</a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">Customer care</a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">Bookings</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pb-4 ">
+                    <h4 >Get in touch</h4>
+                    <div class="row">   
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white" style="margin-top: -0.2% !important;">
+                        <img src="img/messenger.svg" alt="" srcset="" style="fill: white;" class=""><span class="px-2">Facebook</span></a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+                        <img src="img/linkedin.svg" alt="" srcset="" style="fill: white;" class=""><span class="px-2">LinkedIn</span></a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+                        <img src="img/twitter.svg" alt="" srcset="" style="fill: white;" class=""><span class="px-2">Twitter</span></a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+                        <img src="img/instagram.svg" alt="" srcset="" style="fill: white;" class=""><span class="px-2">instagram</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 pb-3  pt-4">
+                    <img src="img/amex.png" alt="" srcset="" id="reduce" style="width: 40px; height: auto; background-color: ;">
+                    <img src="img/visa.png" alt="" srcset="" style="width: 40px; height: auto; margin-left: 1%; background-color: ;"> 
+                    <img src="img/google-wallet.png" alt="" srcset="" style="width: 40px; height: auto; margin-left: 1%; background-color: ;"> 
+                    <img src="img/union.png" alt="" srcset="" style="width: 40px; height: auto; margin-left: 1%; background-color:; border-radius: ;"> 
+                    <img src="img/transfer.png" alt="" srcset="" style="width: 7%; height: auto; background-color:; border-radius: ;"> 
+                    <img src="img/payPal.png" alt="" srcset="" style="width: 40px; height: auto; margin-left: 1%; background-color: rgb(247, 217, 217);"> 
+                    <img src="img/apple-pay.png" alt="" srcset="" style="width: 40px; height: auto; margin-left: 1%; background-color: ;"> 
+                    <img src="img/america-xpress.png" alt="" srcset="" style="width: 40px; height: auto; margin-left: 1%; background-color: ;"> 
+                    <img src="img/bitcoin.png" alt="" srcset="" style="width: 40px; height: auto; margin-left: 1%; background-color: ;"> 
+                    <img src="img/discover.png" alt="" srcset="" style="width: 40px; height: auto; margin-left: 1%; background-color: white;"> 
+                    <img src="img/metro.PNG" alt="" srcset="" style="width: 40px; height: auto; margin-left: 1%; background-color: ;"> 
+                    <img src="img/apple-pay.png" alt="" srcset="" style="width: 40px; height: auto; margin-left: 1%; background-color: ;"> 
+                </div>
+            </div>
+            <p class="pt-5 "> (c) 2022, Designed by G'nonzstics-Studios</p>
+            <p class=" ">powered by shopify</p>
+        </div>
+    </div>
   
 
 
