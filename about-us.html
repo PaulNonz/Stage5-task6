@@ -4,62 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href = "/fonts/soho/stylesheet.css" rel = "stylesheet" type = "text/css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css.map">
-    <link rel="stylesheet" href="css/style.css">
-    <title>About Us</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href = "fonts/soho/stylesheet.css" rel = "stylesheet" type = "text/css" />
+    <title>About Us</title> 
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm|md|lg|-xl navbar-light bg-light  bg-opacity-1 bs-gray-500 " style="--bs-bg-opacity: .9 !important;">
-        <div class="container bg-opacity-1">
-          <a class="navbar-brand" href="#" ><img src="img/julioslogo.png" alt="" srcset=""></a>
-          <div class="left-section" class="text-decoration-none d-none d-md-block">
-              <a href="index.html" class="text-decoration-none px-2  d-none d-md-inline">Home</a>
-              <a href="about-us.html" class="text-decoration-none px-2  d-none d-md-inline">About Us</a>
-              <a href="services.html" class="text-decoration-none px-2  d-none d-md-inline">Our Services</a>
-              <a href="contact.html" class="text-decoration-none px-2 d-none d-md-inline v">Contact Us</a>
-          </div>
-          <button class="navbar-toggler d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+    <!-- <div class="bk p-0">
+        <div class="container">
+            <div class="row p-2 pb-0">
+                <div class="col-8">
+                    <p>08093774518</p>
+                </div>
+                <div class="col-4">
+                    <p class="text-end">Call us</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <nav class="navbar  navbar-expand-lg navbar-light sticky-top px-0 py-0 navbar-light  bg-opacity-1 bs-gray-500 va" style="--bs-bg-opacity: .9 !important;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/julioslogo.png" class="image-responsive logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavId">
-              <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="about-us.html">About us<span class="visually-hidden">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact Us</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                      <div class="dropdown-menu" aria-labelledby="dropdownId">
-                          <a class="dropdown-item" href="#">Gallery</a>
-                          <a class="dropdown-item" href="#">Services</a>
-                      </div>
-                  </li>
-              </ul>
-              <form class="d-flex my-2 my-lg-0">
-                  <input class="form-control me-sm-2" type="text" placeholder="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 ps-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                    <li><a class="dropdown-item" href="#">Gallery2</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
+      </nav>
     </nav>
     <div class="about-hero-section">
-        <div class="container ">
-            <h1 class="pt-5 pb-1 text-primary fs-xtra">About Us...</h1>
-            <p class="pb-5 font-italic text-light">...everything you need <br> to know about US!</p>
+        <div class="container "  data-aos="fade-right">
+            <h1 class="pt-5 pb-1  fs-xtr  t-va shadow-sm">About Us...</h1>
+            <p class="  col-lg-2 col-md-2 p-3 mb-5 bg-body rounded d-none d-md-block" style="width: 20%; ">...everything you need <br> to know about US!</p>
+            <p class="  col-lg-2 col-md-2 p-3 mb-5 bg-body rounded d-lg-none d-md-none d-sm-block" style="width: 50%; ">...everything you need <br> to know about US!</p>
             <div class="img">
                 <div class="more-margin mt-5 pt-5">
-                    <div class="more-padding mt-5"></div>
-                <div class="text-center mt-5" style="red">
-                    <button type="button" class="btn btn-primary text-dark-50 mt-5 px-3 py-3 pt-1 pb-1">
-                        <img src="img/play.PNG" alt="" srcset="" style="width: 34px; height:auto; margin-left 200% !important;">
-                        <span class="text-dark mt-2 pt-2" >Video</span> </button>
-                </div>
+                    <div class="text-center mt-0 mb-2 d-sm-block d-md-none" style="red">
+                        <button type="button" class="btn btn-outline-primary text-dark-50 mt-5 px-2 py-4 pt-1 pb-1">
+                            <img src="img/play.PNG" alt="" srcset="" style="width: 27px; height:auto; margin-left 200% !important;">
+                            <span class="text-dark mt-2 pt-2 mx-1">Play Video</span> 
+                        </button>
+                    </div>
+                    <div class="more-padding mt-5">
+                        <div class="text-center mt-5 mb-2 d-none d-md-block" style="red">
+                            <button type="button" class="btn btn-outline-primary text-dark-50 mt-5 px-2 py-4 pt-1 pb-1">
+                                <img src="img/play.PNG" alt="" srcset="" style="width: 27px; height:auto; margin-left 200% !important;">
+                                <span class=" mt-2 pt-2 mx-1">Play Videos</span> 
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,7 +88,7 @@
     <div class="second-section pb-4">
         <div class="container " >
             <div class="row mt-3">
-                <div class="first col-lg-8 col-md-8">
+                <div class="first col-lg-8 col-md-8 data-aos="fade-right"">
                     <h3 class="pt-5">Our Background</h3>
                     <h6 class="">HOW IT STARTED</h5>
                     <p class="text-left">Julios Travels was a brain-child of Mr. Nonso Nwosu, who haven experienced 
@@ -80,15 +101,15 @@
                         <!-- <img  class="col-lg-1 col-md-2 align-center pt-n5 " src="/img/arrow-right-circle-fill.svg" alt=""> -->
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 fg">
+                <div class="col-lg-4 col-md-4 fg  data-aos="fade-left"">
                     <h4 class="pt-5 mt-3 px-5 py-5 text-secondary">"Absolute Nothing Impossible with us"</h4>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-10 col-md-10">
-                    <div class="row pt-3">
+                    <div class="row pt-3" id="choose">
                         <div class="first col-lg-6 col-md-6  my-auto card ">
-                            <h3 class="pt-5 px-1"><img src="img/goal.PNG" style="width: 10%; height: auto;"> Our Goal</h3>
+                            <h3 class="pt-5 px-1"><img class="fc" src="img/goal.PNG" style="width: 10%; height: auto;"> Our Goal</h3>
                             <h6 class=" px-2">ALWAYS MOTIVATED</h5>
                             <p class="text-left px-2">Julios Travels was a brain-child of Mr. Nonso Nwosu, who haven experienced 
                             a lot of hurdles in securing a good visa/ticket to the united states while pursing his Masters degree,
@@ -101,7 +122,7 @@
                             </div>
                         </div>
                         <div class="first col-lg-6 col-md-6 mx-auto  card">
-                            <h3 class="pt-5 px-1"><img src="img/vision.PNG" style="width: 10%; height: auto;"> Our Vision</h3>
+                            <h3 class="pt-5 px-1"><img class="fc" src="img/vision.PNG" style="width: 10%; height: auto;"> Our Vision</h3>
                             <h6 class="px-2">A PEEP INTO OUR THOUGHTS</h5>
                             <p class="text-left px-2">As One of the leading Travel Agency in Delta State, Asaba, 
                             we attribute our reputation to the lasting customer relationship we have developed throughout 
@@ -115,7 +136,7 @@
                     </div>
                     <div class="row mt-4 ">
                         <div class="first col-lg-6 col-md-6 my-auto card pt-1 pb-3">
-                            <h3 class="pt-5 px-1"><img src="img/the-mission.PNG" style="width: 10%; height: auto;"> The Mission</h3>
+                            <h3 class="pt-5 px-1"><img class="fc" src="img/the-mission.PNG" style="width: 10%; height: auto;"> The Mission</h3>
                             <h6 class=" px-2">TO BE A TRAIL-BLAZER</h5>
                             <p class="text-left px-2">Julios Travels was a brain-child of Mr. Nonso Nwosu, who haven experienced 
                             a lot of hurdles in securing a good visa/ticket to the united states while pursing his Masters degree,
@@ -127,7 +148,7 @@
                             </div>
                         </div>
                         <div class="first col-lg-6 col-md-6 mx-auto  card">
-                            <h3 class="pt-5 px-1"><img src="img/awards.PNG" style="width: 10%; height: auto;"> Notable awards</h3>
+                            <h3 class="pt-5 px-1"><img class="fc" src="img/awards.PNG" style="width: 10%; height: auto;"> Notable awards</h3>
                             <h6 class=" px-2">BELLOW IS A LIST OF OUR AWARDS</h5>
                             <p class="text-left px-2">Since the inception of this exterblishmnet, th following are notable list of our awrds.</p>
                             <ul>
@@ -161,59 +182,143 @@
             <p>Below is a list of all our notable staffs</p>
             <div class="row pb-5">
                 <div class="card col-lg-4 col-md-6">
-                    <img src="img/mr.3.png" class="rounded mx-auto d-block text-center px-4 py-4 w-100" alt="..." style="width: 80% !important;">
+                    <img src="img/mr.3.png" class="fc rounded mx-auto d-block text-center px-4 py-4 w-100" alt="..." style="width: 80% !important;">
                     <div class="bg-dark text-white p-4 text-center mb-3">
                         <h5 class="text-white ">Mr. Hope Shawn</h5>
                         <p>General Manager</p>
                     </div>
                 </div>
                 <div class="card col-lg-4 col-md-6">
-                    <img src="img/mr.6.JPG" class="rounded mx-auto d-block text-center px-4 py-4 w-100 pt-5" alt="..." style="width: 86% !important;">
+                    <img src="img/mr.6.JPG" class="fc rounded mx-auto d-block text-center px-4 py-4 w-100 " alt="..." style="width: 80% !important;">
                     <div class="bg-dark text-white p-4 text-center mb-3">
                         <h5 class="text-white ">Ogbona Iloh</h5>
                         <p>Operation Manager</p>
                     </div>
                 </div>
                 <div class="card col-lg-4 col-md-6">
-                    <img src="img/ms-20.PNG" class="rounded mx-auto d-block text-center px-4 py-4 w-100" alt="..." style="width: 80% !important;">
+                    <img src="img/ms-20.PNG" class="fc rounded mx-auto d-block text-center px-4 py-4 w-100" alt="..." style="width: 80% !important;">
                     <div class="bg-dark text-white p-4 text-center mb-3">
                         <h5 class="text-white ">Ms. Karen Shaw</h5>
                         <p>Head of Marketing</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="gallery p-5">
-        <div class="container">
-            <h3 class="pb-3">Gallery</h3>
-            <p>Places you Wish to See</p>
-            <div class="row">
-                <div class="col-4">
-                    <img class="col-12" src="img/g2.WEBP" alt="" srcset="">
-                    <p>Manibau Beach</p>
-                    <img class="col-12" src="img/g3.WEBP" alt="" srcset="">
-                </div>
-                <div class="col-4">
-                    <img class="col-12" src="img/g1.WEBP" alt="" srcset="">
-                    <p>Baecation</p>
-                </div>
-                <div class="col-4">
-                    <img class="col-12" src="img/g7.WEBP" alt="" srcset="">
-                    <p>Family Retreat</p>
-                    <img class="col-12" src="img/g8.WEBP" alt="" srcset="">
+                <div class="card col-lg-4 col-md-6 d-lg-none d-block">
+                    <img src="img/mr.4.JPG" class="rounded mx-auto d-block text-center px-4 py-4 w-100" alt="..." style="width: 80% !important;">
+                    <div class="bg-dark text-white p-4 text-center mb-3">
+                        <h5 class="text-white ">Mr. Ahmad Mustapha</h5>
+                        <p>Regional Manager</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <section class="gallery customer-section  py-5">
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class="col-12 ">
+                    <h3 class="pb-3">Gallery</h3>
+                    <p>Places you wish to See</p>
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 0"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img class="col-12" src="img/g2.WEBP" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p>Manibau Beach</p>
+                                    <img class="col-12" src="img/g3.WEBP" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p>Obudu Ranch</p>
+                                </div>
+                                <div class="col-4">
+                                    <img class="col-12" src="img/g1.WEBP" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p class="text-center mt-2">Sun-set beach Resort</p>
+                                </div>
+                                <div class="col-4">
+                                    <img class="col-12" src="img/g7.WEBP" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p>Family Retreat</p>
+                                    <img class="col-12" src="img/g8.WEBP" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p>Kids Bay</p>
+                                </div>
+                            </div>
+                        <div class="carousel-caption mt-5 ">
+                            
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img class="col-12" src="img/flight-booking.WEBP" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p>Our remarkable flight</p>
+                                    <img class="col-12" src="img/g17.WEBP" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p>Exquisite Hotel pools and pools</p>
+                                </div>
+                                <div class="col-4">
+                                    <img class="col-12" src="img/g20.JPG" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p class="text-center mt-2">Marina Resort</p>
+                                </div>
+                                <div class="col-4">
+                                    <img class="col-12" src="img/g10.WEBP" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p>Beaches in Florida</p>
+                                    <img class="col-12" src="img/g16.JPG" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p>A dive worth saving</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption mt-5 ">
+                            
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img class="col-12" src="img/fam.JPG" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p>give your family a treat</p>
+                                    <img class="col-12" src="img/germany.WEBP" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p>germany</p>
+                                </div>
+                                <div class="col-4">
+                                    <img class="col-12" src="img/g13.WEBP" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p class="text-center mt-2">Your No.1 Exquisite hotel plugs</p>
+                                </div>
+                                <div class="col-4">
+                                    <img class="col-12" src="img/paris.WEBP" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p>Paris</p>
+                                    <img class="col-12" src="img/lasVegas.WEBP" alt="" srcset="" style="width: 100% !important; height: auto;">
+                                    <p>Las Vegas on my mind</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption mt-5 ">
+                            
+                            </div>
+                        </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+                    <p class="text-center text-dark pt-3 col-9 mx-auto">Explore our gallery for<a href="gallery.html#tour" class="mx-2">more</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="subscription-section p-5 bg-opacity-1 bg-secondary" id="subscribe">
         <div class="container" >
-            <h3 class="text-white text-center pb-4">Build a career with us</h3>
+            <h3 class="text-white text-center pb-2">Build a career with us</h3>
+            <p class="text-white text-center pb-4 pt-0">...may the odds be forever at your favour</p>
             <div class="row" >
-                <div class="col-lg-6 d-none d-md-inline">
-                    <img src="img/sub.WEBP" alt="" srcset="" class="col-lg-12 col-md-12 col-sm-12 mx-auto pb-5">
+                <div class="col-lg-6 col-sm-12">
+                    <img src="img/build.JPG" alt="" srcset="" class="col-lg-12 col-md-12 col-sm-5 mx-auto pb-5" style="width: 100% !important; height: auto !important;">
                 </div>
-                <div class="col-lg-6 d-none d-md-inline">
+                <div class="col-lg-6 col-sm-12">
                     <form>
                         <div class="mb-3">
                             <label for="name1" class="form-label text-white">Name</label>
@@ -269,12 +374,6 @@
             </div>
         </div>
     </div>
-    
-
-
-    
-
-    
     <div class="footer p-5 bg-dark">
         <div class="container text-white ">
             <div class="row">
@@ -331,9 +430,6 @@
         </div>
     </div>
   
-
-
-
-
+    <script src="./app/bootstrap.min.js"></script>
 </body>
 </html>
