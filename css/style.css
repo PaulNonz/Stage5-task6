@@ -1,10 +1,8 @@
 @import url("../fonts/soho/stylesheet.css");
-
 *{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    /* line-height: -3%; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -109,7 +107,6 @@ body footer .container .row {
     transition: 0.3s;
     border-radius: 3%;
 }
-
 .services-section .card:hover{
     box-shadow: 0 9px 19px 0 rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -117,7 +114,6 @@ body footer .container .row {
     color: #F2F2F2 !important;
     font-weight: 600;
 }
-
 .card:hover h4{
     color: #efd7b4  !important;
 }
@@ -133,8 +129,7 @@ body footer .container .row {
     opacity: 0, 100 ;
     background-repeat: no-repeat;e a
     background-size: 80% !important;
-    box-shadow: 2px 2px 2px 0 white;
-    
+    box-shadow: 2px 2px 2px 0 white; 
     border-radius: 18px;
 }
 .card:hover h5{
