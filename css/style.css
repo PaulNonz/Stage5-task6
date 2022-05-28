@@ -1,5 +1,3 @@
-@import url("../fonts/soho/stylesheet.css");
-
 *{
     padding: 0%;
     margin: 0%;
@@ -9,12 +7,6 @@
 }
 .bk{
     background-image: url('../img/2.JPG') ;
-    background-size: cover;
-    height: 1% !important;
-}
-.txt-y{
-    color: rgba(250, 227, 198, 0.942) !important;
-    text-shadow: 2px white;
 }
 .navbar img{
     width: auto;
@@ -23,10 +15,6 @@
 }
 .t-va{
     color: #26579f ;
-    text-shadow: 1px 1px rgba(250, 227, 198, 0.942) ;
-}
-.va{
-    background-color: #c7d8f183 !important;
 }
 p{
     font-family:Arial, Helvetica, sans-serif;
@@ -39,7 +27,6 @@ p{
     padding-top: 3%;
 }
 .hero-section, .about-hero-section, .contact-hero-section, .gallery-hero-section{
-    width: 100%;
     height: 520px;
     background-position: 10% 0%;
 }
@@ -54,10 +41,6 @@ p{
 }
 .gallery-hero-section{
     background-image: url('../img/g5.WEBP');
-}
-.two, .three{
-    background-size: 100%;
-    width: 50%;
 }
 .two{
     background-image: url('../img/5.JPG');
@@ -76,14 +59,12 @@ body footer svg{
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.14);
     transition: 0.3s;
-    border-radius: 3%;
 }
 .services-section .card:hover{
     box-shadow: 0 9px 19px 0 rgba(0, 0, 0, 0.3);
     cursor: pointer;
     background-color: #8b7d79;
     color: #F2F2F2 !important;
-    font-weight: 600;
 }
 .card:hover h4{
     color: #efd7b4  !important;
@@ -94,14 +75,9 @@ body footer svg{
 }
 .card:hover .fc{
     background-color: rgb(253, 249, 249) !important;
-    border-radius: 18px;
 }
 .card img{
-    opacity: 0, 100 ;
     background-repeat: no-repeat;
-    background-size: 80% !important;
-    box-shadow: 2px 2px 2px 0 white;
-    border-radius: 18px;
 }
 .card:hover h5{
     color: blue ;
@@ -109,14 +85,13 @@ body footer svg{
 .card:hover img{
     fill: #efcacae7 !important;
     opacity: 0.87;
-    width: 26%;
-    height: auto;
-    transition: 0.5s;
-    padding: 1.2%;
+    transition: 0.6s;
+    padding: 1.1%;
     background-color:#eed4af !important;
-    background-size: 80% !important;
 }
 .card img:hover{
     fill:#ff0000 !important;
-    stroke: #939191;
+}
+a .fo{
+    font-size: 11px;
 }
