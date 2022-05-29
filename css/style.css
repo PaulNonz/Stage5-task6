@@ -5,6 +5,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#over{
+    overflow: hidden!;
+}
+
 .bk{
     background-image: url('../img/2.JPG') ;
 }
@@ -123,4 +128,9 @@ a .fo{
 }
 #hight{
     height: 250px;
+}
+
+#widt-50{
+    width: 20% !important;
+    padding-right: 3% !important;
 }
