@@ -72,25 +72,15 @@ p{
 }
 
 .hero-section{
-    background-image: url(../img/2.JPG);
+    background-image: url('../img/2.JPG');
     background-position: 20% 0%;
 }
-.overlay1{
-    background: rgba(40, 44, 53, 0.701);
-    width: 100% !important;
-    height: 100% !important;
-}
-.overlay{
-    background: rgba(63, 67, 75, 0.119);
-    height: 100rem;
-}
+
 .hero-section, .about-hero-section, .contact-hero-section, .gallery-hero-section{
     height: 520px;
     background-position: 10% 0%;
 }
-.hero-section{
-    animation: bg 49s infinite linear;
-}
+
 .about-hero-section{
     background-image: url('../img/7.JPG');
 }
@@ -130,34 +120,6 @@ p{
 }
 
 /* hover */
-
-button:hover{
-    box-shadow: 0 4px 6px 0 rgba(53, 50, 50, 0.6);
-    transition: 0.3s;
-    cursor: pointer;
-}
-button span{
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-button span:after{
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.7s;
-}
-button:hover span{
-    padding-right: 8px;
-}
-button:hover span:after{
-    opacity: 1;
-    right: 0;
-}
-
 .card:hover{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14);
     transition: 0.3s;
@@ -165,7 +127,6 @@ button:hover span:after{
 
 .services-section .card:hover{
     box-shadow: 0 9px 19px 0 rgba(0, 0, 0, 0.3);
-    /* cursor: pointer; */
     background-color: #8b7d79;
     color: #F2F2F2 !important;
 }
