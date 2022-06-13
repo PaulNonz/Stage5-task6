@@ -73,13 +73,7 @@ p{
     box-shadow: 0 2px 6px 0 rgba(176, 161, 161, 0.14);
     transition: 0.6s;
 }
-.services-section .card:hover{
-    background-color: #7d6660;
-    color: #F2F2F2 !important;
-}
-.card:hover h5{
-    color: #efd7b4  !important;
-}
+
 .card:hover .fc{
     background-color: #eed4af !important;
     box-shadow: rgb(244, 47, 83);
