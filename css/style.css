@@ -32,20 +32,12 @@ a{
 }
 
 /* Size */
-.font-size-11{
-    font-size: 11px !important;
-}
+
 .display-7{
     font-size: 1.5rem;
     line-height: 2.7rem !important;
 }
-.col-23-4{
-    width: 23.5% !important;
-}
-.w-10{
-    width: 10% !important;
-    height: 10% !important;
-}
+
 .p-small{
     font-size: 11px !important;
 }
@@ -67,17 +59,12 @@ p{
 
 /* Background setup */
 
-.overflow{
-    overflow: hidden;
-}
-
 .hero-section{
     background-image: url('../img/2.JPG');
-    background-position: 20% 0%;
 }
 
 .hero-section, .about-hero-section, .contact-hero-section, .gallery-hero-section{
-    height: 520px;
+    height: 510px;
     background-position: 10% 0%;
 }
 
@@ -91,12 +78,6 @@ p{
     background-image: url('../img/g5.WEBP');
 }
 
-#over{
-    overflow: hidden!;
-}
-.bk{
-    background-image: url('../img/2.JPG') ;
-}
 .fg{
     background-image: url('../img/fg.WEBP');
     background-position: 50%;
@@ -112,21 +93,13 @@ p{
 
 /* animation */
 
-@keyframes bg {
-    0% {background-image: url('../img/2.JPG');}
-    50% {background-image: url('../img/2.JPG');}
-    100% {background-image: url('../img/3.JPG');}
-    0% {background-image: url('../img/3.JPG');}
-}
-
 /* hover */
 .card:hover{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14);
-    transition: 0.3s;
+    transition: 0.6s;
 }
 
 .services-section .card:hover{
-    box-shadow: 0 9px 19px 0 rgba(0, 0, 0, 0.3);
     background-color: #8b7d79;
     color: #F2F2F2 !important;
 }
@@ -158,5 +131,8 @@ p{
 }
 .play{
     width: 27px; 
+}
+.w-8{
+    width: 8%;
 }
 
