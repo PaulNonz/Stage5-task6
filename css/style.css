@@ -1,1 +1,99 @@
 
+@import url("../fonts/soho/stylesheet.css");
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: soho;
+}
+
+.vip-background-gradient2{
+    background-image: linear-gradient(to bottom right, #9f67c8, #f39a42);
+    padding-bottom: -2% !important;
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+.bg-grey{
+    background-color: rgb(240, 239, 239);
+}
+.light-col{
+    background-color: #eed4af;
+}
+.display-7{
+    font-size: 1.5rem;
+    line-height: 2.7rem !important;
+}
+.p-small{
+    font-size: 11px !important;
+}
+.rounded-circlee{
+    width: 100px !important;
+    height: 100px !important;
+    margin: auto !important;
+    border-radius: 100px;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300 !important;
+    font-size: 15px;
+}
+.hero-section{
+    background-image: url('../img/2.JPG');
+}
+
+.hero-section, .about-hero-section, .contact-hero-section, .gallery-hero-section{
+    height: 510px;
+    background-position: 10% 0%;
+}
+.about-hero-section{
+    background-image: url('../img/7.JPG');
+}
+.contact-hero-section{
+    background-image: url('../img/contact.WEBP');
+}
+.gallery-hero-section{
+    background-image: url('../img/g5.WEBP');
+}
+.fg{
+    background-image: url('../img/fg.WEBP');
+}
+.two{
+    background-image: url('../img/5.JPG');
+    background-position: 0% 50%;
+}
+.three{
+    background-image: url('../img/3.JPG');
+}
+.card:hover{
+    box-shadow: 0 2px 6px 0 rgba(176, 161, 161, 0.14);
+    transition: 0.6s;
+}
+
+.card:hover .fc{
+    background-color: #eed4af !important;
+    box-shadow: rgb(244, 47, 83);
+}
+.card:hover img{
+    transition: 0.6s;
+    transform: scale(1.09);
+}
+#reduce{
+    width: 40px !important; 
+    margin-left: 1% !important;
+}
+.play{
+    width: 27px; 
+}
+.w-8{
+    width: 8%;
+}
+.w-4{
+    width: 5%;
+}
+
